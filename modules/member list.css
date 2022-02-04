@@ -1,0 +1,26 @@
+.members-3WRCEx {
+	padding-right: 0px;
+}
+
+.member-2gU6Ar {
+	margin: 0;
+	transition: .15s linear;
+	transition-property: margin;
+}
+
+.selected-1-Z6gm.member-2gU6Ar {
+	margin: 2px 0;
+}
+
+.member-2gU6Ar .layout-1qmrhw {
+	margin-right: -8px;
+	padding: 0 8px 0 16px;
+	border-radius: 0px;
+	transition: .15s ease;
+	transition-property: padding, box-shadow;
+}
+
+.selected-1-Z6gm.member-2gU6Ar .layout-1qmrhw {
+	box-shadow: 0 0 10px rgba(0 0 0 / 25%);
+	padding: 2px 8px;
+}

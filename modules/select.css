@@ -1,0 +1,5 @@
+::selection {
+	color: #ffffff;
+	background: var(--select-bg, #5865F2);
+	--select-bg: #5865F2;
+}

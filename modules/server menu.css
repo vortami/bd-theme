@@ -1,0 +1,36 @@
+.styleFixed-2_NfVL {
+	width: 240px;
+	transform: translateY(-8px);
+	border-radius: 0px;
+}
+
+.full-motion .scale-3UGUBw {
+	transform: scale(1) translateY(-1.5rem);
+	transform-origin: center;
+}
+
+.full-motion .scale-3UGUBw.didRender-2SiRlm {
+	-webkit-transform: unset;
+	transition-timing-function: cubic-bezier(0, 0.01, 0, 1);
+	transform: scale(1) translateY(0rem);
+	transform-origin: center;
+}
+
+#guild-header-popout > div .item-1OdjEX {
+	border-radius: 0px;
+	padding: 8px 12px;
+}
+
+#guild-header-popout > div .labelContainer-2vJzYL {
+	flex-direction: row-reverse;
+}
+
+#guild-header-popout > div .labelContainer-2vJzYL .iconContainer-1-SsTR {
+	margin: 0 12px 0 0;
+}
+
+#guild-header-popout > div {
+	padding: 0px;
+	margin: 4px 0;
+	overflow: hidden overlay !important;
+}

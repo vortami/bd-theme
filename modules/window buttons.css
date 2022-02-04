@@ -1,0 +1,18 @@
+:root {
+	--action-button-width: 45px;
+	--action-button-height: 30px;
+}
+
+.winButton-3UMjdg {
+	width: var(--action-button-width, 45px);
+	height: var(--action-button-height, 30px);
+}
+
+.withFrame-2dL45i {
+	height: calc(var(--action-button-height, 30px) - 4px); /* exclude margin */
+}
+
+.wordmarkWindows-2dq6rw {
+	/* 4 and 3 are the original top/bottom padding, 18 is the original bar height */
+	padding: calc(4 * var(--action-button-height, 30px) / 18) 9px calc(3 * var(--action-button-height, 30px) / 18);
+}
