@@ -1,0 +1,35 @@
+.headerTop-1PNKck .badgeList-2aoHPw {
+	backdrop-filter: blur(3px);
+	margin: -4px;
+	padding: 4px;
+	border-radius: 36px;
+	background-color: rgb(255 255 255 / 10%);
+	border: 2px solid rgb(255 255 255 / 20%);
+	gap: 2px;
+}
+.headerTop-1PNKck .badgeList-2aoHPw:empty {
+	visibility: hidden;
+}
+.headerTop-1PNKck .badgeList-2aoHPw>* {
+	margin: 0;
+}
+
+.headerTop-1PNKck {
+	top: -40px;
+}
+
+.nameTag-2Nlmsy.nameTag-H6kSJ0 {
+	position: relative;
+	left: 160px;
+	top: 4px;
+	margin: 0 0 32px;
+}
+
+.avatar-3QF_VA {
+	border-width: 4px;
+	margin: 2px;
+}
+
+.customStatusActivity-WKWGD- {
+	padding: 16px;
+}
