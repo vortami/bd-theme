@@ -1,6 +1,6 @@
 /**
  * @name vortami's Theme
- * @version 0.3.0
+ * @version 0.3.1
  * @description My theme. For me.
  *
  * @author vortami
@@ -11,3 +11,12 @@
  */
 
 @import url("https://vortami.github.io/bd-theme/theme.css");
+
+:root {
+	/* windows buttons size (top right) (default: 45px/30px) */
+	--action-button-width: 45px;
+	--action-button-height: 30px;
+
+	/* select background (default: blurple/discord color) */
+	--select-bg: var(--brand-experiment);
+}
