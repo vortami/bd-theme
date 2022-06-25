@@ -7,9 +7,16 @@
 	border: 2px solid rgb(255 255 255 / 20%);
 	gap: 2px;
 }
+
+.theme-dark .headerTop-1PNKck .badgeList-2aoHPw {
+	border-color: rgb(0 0 0 / 20%);
+	background-color: rgb(0 0 0 / 10%);
+}
+
 .headerTop-1PNKck .badgeList-2aoHPw:empty {
 	visibility: hidden;
 }
+
 .headerTop-1PNKck .badgeList-2aoHPw>* {
 	margin: 0;
 }
@@ -20,8 +27,8 @@
 
 .nameTag-2Nlmsy.nameTag-H6kSJ0 {
 	position: relative;
-	left: 160px;
-	top: 4px;
+	left: 164px;
+	top: 12px;
 	margin: 0 0 32px;
 }
 
@@ -32,4 +39,54 @@
 
 .customStatusActivity-WKWGD- {
 	padding: 16px;
+}
+
+.relationshipButtons-3ByBpj .lookFilled-yCfaCM {
+	background-color: rgb(0 0 0 / 15%);
+	backdrop-filter: blur(3px);
+}
+
+.relationshipButtons-3ByBpj .colorGreen-3y-Z79:hover {
+	background-color: var(--button-positive-background);
+}
+.relationshipButtons-3ByBpj .colorBrand-I6CyqQ:hover {
+	background-color: var(--brand-experiment);
+}
+
+.body-1Ukv50 {
+	min-height: 240px;
+	height: unset;
+}
+
+.root-8LYsGj {
+	width: 600px;
+	overflow: visible;
+}
+
+.tabBarContainer-sCZC4w {
+	position: absolute;
+	transform: translate(-80%, -10vh);
+	top: 50%;
+	border: none;
+}
+.tabBar-2hXqzU {
+	flex-direction: column;
+	gap: 2px;
+}
+
+.tabBar-2hXqzU .tabBarItem-30Te4- {
+	background-color: var(--background-floating);
+	padding: 8px;
+	border-radius: 4px;
+	transition: .17s ease;
+	transition-property: background-color, color;
+}
+
+.top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,
+.top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
+	border-bottom-color: transparent;
+}
+
+.tabBar-2hXqzU .tabBarItem-30Te4-.selected-g-kMVV {
+	background-color: var(--brand-experiment);
 }

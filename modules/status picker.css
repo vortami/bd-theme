@@ -1,3 +1,7 @@
 #status-picker {
 	transform: translate(-8px, 4px);
 }
+
+#status-picker-switch-account > div.iconContainer-1-SsTR {
+	display: none;
+}
