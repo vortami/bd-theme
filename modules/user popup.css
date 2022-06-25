@@ -90,3 +90,103 @@
 .tabBar-2hXqzU .tabBarItem-30Te4-.selected-g-kMVV {
 	background-color: var(--brand-experiment);
 }
+
+.tabBar-2hXqzU {
+	gap: 9px;
+}
+
+.tabBar-2hXqzU .tabBarItem-30Te4- {
+	transition-property: background-color, color, transform;
+}
+.tabBar-2hXqzU .tabBarItem-30Te4-.selected-g-kMVV {
+	transform: translateX(-8px);
+}
+
+.topSection-13QKHs, .banner-1YaD3N {
+	border-radius: 10px 10px 0 0;
+}
+.body-1Ukv50{
+	border-radius: 0 0 10px 10px;
+}
+
+.connectedAccounts-1YaT2t {
+	justify-content: unset;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1px;
+}
+
+.userInfoSection-2u2hir+.userInfoSection-2u2hir {
+	border-top: none;
+}
+
+.connectedAccounts-1YaT2t::before {
+	display: block;
+	content: "CONNECTED ACCOUNTS";
+	font-weight: 700;
+	margin-bottom: 8px;
+	font-size: 12px;
+	line-height: 16px;
+	grid-column: 1 / span 2;
+	color: var(--header-secondary);
+	font-family: var(--font-display);
+}
+
+.connectedAccount-1xKpli {
+	width: auto;
+	border-width: 0px;
+	margin-top: 0;
+	border-radius: 0px;
+	box-shadow: 0 0 0 1px var(--background-modifier-accent);
+	position: relative;
+}
+
+.connectedAccount-1xKpli a {
+	position: absolute;
+	inset: 0;
+	opacity: 0;
+}
+
+.profileBannerPremium-KD60EB {
+	background-origin: content-box;
+	background-color: rgb(255 255 255 / 5%) !important;
+	transition: .17s ease;
+	transition-property: transform, border-radius, padding, margin;
+	transform-origin: bottom left;
+	--banner-handle: 5ch;
+}
+
+.profileBannerPremium-KD60EB .pencilContainer-18TrEJ {
+	transition: .17s ease;
+	transition-property: top, right;
+}
+.profileBannerPremium-KD60EB:hover .pencilContainer-18TrEJ {
+	--w: 36px;
+	--h: var(--w);
+
+	top: max(0px, calc(calc(var(--banner-handle) - var(--h)) * 0.5));
+	right: max(0px, calc(calc(var(--banner-handle) - var(--w)) * 0.5));
+}
+
+.noTabBar-2Q-iE_ {
+	border-top: none;
+}
+
+.profileBannerPremium-KD60EB:hover {
+	transform: scale(1.25);
+	margin-right: calc(-1 * var(--banner-handle, 5ch));
+	padding-right: var(--banner-handle, 5ch);
+	border-radius: 0px;
+}
+
+.profileBannerPremium-KD60EB ~ * {
+	transition: opacity .17s ease;
+}
+
+.profileBannerPremium-KD60EB:hover ~ * {
+	opacity: 0;
+}
+
+.profileBannerPremium-KD60EB .premiumIconWrapper-32h0Ri {
+	display: none;
+}

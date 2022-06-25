@@ -2,6 +2,15 @@
 	transform: translate(-8px, 4px);
 }
 
+#status-picker .item-1OdjEX.labelContainer-2vJzYL {
+	padding-inline: 16px;
+}
+
 #status-picker-switch-account > div.iconContainer-1-SsTR {
 	display: none;
+}
+
+#status-picker-switch-account + .layer-2aCOJ3 {
+	/* disabled because of unpredictable placement */
+	display: none !important;
 }

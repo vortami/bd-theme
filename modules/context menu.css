@@ -1,0 +1,27 @@
+.scroller-1bVxF5 {
+	padding-inline: 0px;
+}
+
+.scroller-1bVxF5::-webkit-scrollbar {
+	width: 0px;
+}
+
+.scroller-1bVxF5 .item-1OdjEX {
+	border-radius: 0px;
+	padding-inline: 16px;
+}
+
+.scroller-1bVxF5 .item-1OdjEX + .layer-2aCOJ3 {
+	transform: translate(-12px, -8px);
+}
+
+.menu-1QACrS {
+	border-radius: 0px;
+
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#status-picker .item-1OdjEX {
+	padding-inline: 8px;
+}
