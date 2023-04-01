@@ -1,0 +1,34 @@
+#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > section > div.wrapper-3Hk9OB > div > div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignCenter-14kD11.noWrap-hBpHBz.connection-3k9QeF > div.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz > button[aria-label="Noise Suppression powered by Krisp"] {
+	display: none;
+}
+#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > section > div.wrapper-3Hk9OB > div > div.actionButtons-2vEOUh > button[aria-label="Turn On Camera"] {
+	display: none;
+}
+#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > section > div.wrapper-3Hk9OB > div > div.actionButtons-2vEOUh {
+	grid-template-columns: 1fr;
+	gap: 0;
+}
+#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > section > div.wrapper-3Hk9OB > div > div.actionButtons-2vEOUh > button {
+	border-radius: 0;
+	padding-inline: .75ch;
+	gap: .75ch;
+	place-content: start;
+}
+#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > section > div.wrapper-3Hk9OB > div > div.actionButtons-2vEOUh > button:nth-child(2) {
+	border-radius: 3px 3px 0 0;
+}
+#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > section > div.wrapper-3Hk9OB > div > div.actionButtons-2vEOUh > button:last-child  {
+	border-radius: 0 0 3px 3px;
+}
+#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > section > div.wrapper-3Hk9OB > div > div.actionButtons-2vEOUh > button > div {
+	margin: 0;
+}
+#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > section > div.wrapper-3Hk9OB > div > div.actionButtons-2vEOUh > button::after {
+	display: inline;
+}
+#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > section > div.wrapper-3Hk9OB > div > div.actionButtons-2vEOUh > button:nth-child(2)::after {
+	content: "Screen Share";
+}
+#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > section > div.wrapper-3Hk9OB > div > div.actionButtons-2vEOUh > button:nth-child(3)::after {
+	content: "Activity";
+}

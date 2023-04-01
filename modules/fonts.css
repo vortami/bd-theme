@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+	--_font-unbounded: "Unbounded", sans-serif;
+	--_font-alexandria: "Alexandria", sans-serif;
+	--font-primary: var(--_font-alexandria);
+	--font-display: var(--_font-unbounded), var(--_font-alexandria);
+}
