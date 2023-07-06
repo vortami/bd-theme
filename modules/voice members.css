@@ -1,0 +1,13 @@
+/* adjust bg of channel member based on voice activity (speaking/muted) */
+
+.voiceUser-3nRK-K .content-1Tgc42:has(.avatarSpeaking-2pCGrZ) {
+	background-color: hsl(120 25% 20%);
+}
+
+.voiceUser-3nRK-K .content-1Tgc42:has([aria-label="Muted"]) {
+	background-color: hsl(0 25% 20%);
+}
+
+.voiceUser-3nRK-K .content-1Tgc42:has([aria-label="Deafened"]) {
+	background-color: hsl(0 50% 20%);
+}
